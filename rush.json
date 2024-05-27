@@ -26,7 +26,7 @@
    * Specify one of: "pnpmVersion", "npmVersion", or "yarnVersion".  See the Rush documentation
    * for details about these alternatives.
    */
-  "pnpmVersion": "7.33.5",
+  "pnpmVersion": "9.1.3",
 
   // "npmVersion": "6.14.15",
   // "yarnVersion": "1.9.4",
@@ -311,6 +311,30 @@
    * 3. It's useful to have a centralized inventory of all projects and their important metadata.
    */
   "projects": [
+    {
+      "packageName": "client",
+      "projectFolder": "apps/client"
+    },
+    // {
+    //   "packageName": "server",
+    //   "projectFolder": "apps/server"
+    // },
+    {
+      "packageName": "@libs/app-framework-lib",
+      "projectFolder": "libs/app-framework-lib"
+    },
+    {
+      "packageName": "@libs/base-lib",
+      "projectFolder": "libs/base-lib"
+    },
+    {
+      "packageName": "eds-lib",
+      "projectFolder": "libs/eds-lib"
+    },
+    // {
+    //   "packageName": "functional-lib",
+    //   "projectFolder": "libs/functional-lib"
+    // }
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)
