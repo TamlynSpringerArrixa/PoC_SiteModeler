@@ -3,6 +3,10 @@
   "include": ["src", "types"],
   "compilerOptions": {
     "module": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
     "lib": ["dom", "esnext"],
     "importHelpers": true,
     // output .d.ts declaration files for consumers

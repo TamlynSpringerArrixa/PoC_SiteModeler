@@ -328,7 +328,7 @@
       "projectFolder": "libs/base-lib"
     },
     {
-      "packageName": "eds-lib",
+      "packageName": "@libs/eds-lib",
       "projectFolder": "libs/eds-lib"
     },
     // {
