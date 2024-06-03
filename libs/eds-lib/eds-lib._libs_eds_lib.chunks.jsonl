@@ -1,0 +1,9 @@
+{"text":"Invoking: tsdx build \r\n","kind":"O"}
+{"text":"@rollup/plugin-replace: 'preventAssignment' currently defaults to false. It is recommended to set this option to `true`, as the next major version will default this option to `true`.\r\n","kind":"E"}
+{"text":"@rollup/plugin-replace: 'preventAssignment' currently defaults to false. It is recommended to set this option to `true`, as the next major version will default this option to `true`.\r\n","kind":"E"}
+{"text":"⠙ Creating entry file  90%                 1.8s, estimated 2.0s\r\n","kind":"O"}
+{"text":"✓ Creating entry file 1.8 secs\r\n","kind":"O"}
+{"text":"⠙ Building modules  3%                  0.1s, estimated 4.5s\r\n","kind":"O"}
+{"text":"⠹ Building modules  7%                  0.3s, estimated 4.5s\r\n","kind":"O"}
+{"text":"⠸ Building modules  26%                 1.1s, estimated 4.5s\r\n","kind":"O"}
+{"text":"⠼ Building modules  43%                 1.9s, estimated 4.5s\r\n","kind":"O"}

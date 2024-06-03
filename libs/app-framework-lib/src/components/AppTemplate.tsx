@@ -1,19 +1,16 @@
 import React from 'react'
 import { BaseHeader, NavigationPanel } from '@libs/base-lib';
+import { AppProps } from '../lib/types';
 
-function AppTemplate(props: any) {
-    console.log(props)
-    return (
-        <>
-            <BaseHeader
-                appName={props.appName}
-                user={props.user}
-                > 
-                <NavigationPanel routes={props.routes} />
-            </BaseHeader>
-        
-        </>
-    )
+
+function AppTemplate ({props}:{props: AppProps}) {
+  return (
+    <>
+      <BaseHeader {...props}>
+        <NavigationPanel routes={props.routes} />
+      </BaseHeader>
+    </>
+  )
 }
 
 export default AppTemplate;

@@ -1,0 +1,26 @@
+{"text":"Invoking: tsdx build \r\n","kind":"O"}
+{"text":"@rollup/plugin-replace: 'preventAssignment' currently defaults to false. It is recommended to set this option to `true`, as the next major version will default this option to `true`.\r\n","kind":"E"}
+{"text":"@rollup/plugin-replace: 'preventAssignment' currently defaults to false. It is recommended to set this option to `true`, as the next major version will default this option to `true`.\r\n","kind":"E"}
+{"text":"⠙ Creating entry file  99%                 1.3s, estimated 1.3s\r\n","kind":"O"}
+{"text":"✓ Creating entry file 1.3 secs\r\n","kind":"O"}
+{"text":"⠙ Building modules  7%                  0.2s, estimated 2.5s\r\n","kind":"O"}
+{"text":"⠹ Building modules  15%                 0.4s, estimated 2.5s\r\n","kind":"O"}
+{"text":"⠸ Building modules  49%                 1.2s, estimated 2.5s\r\n","kind":"O"}
+{"text":"⠼ Building modules  57%                 1.4s, estimated 2.5s\r\n","kind":"O"}
+{"text":"(typescript) Error: C:/Users/tamly/Documents/site-modeler-poc/libs/app-framework-lib/src/components/AppTemplate.tsx(9,14): semantic error TS2322: Type '{ children: never[]; appName: string; user: { firstName: string; header: string; subHeader: string; }; }' is not assignable to type 'IntrinsicAttributes & { appName: string; user: UserProps; }'.\r\n","kind":"E"}
+{"text":"  Property 'children' does not exist on type 'IntrinsicAttributes & { appName: string; user: UserProps; }'.\r\n","kind":"E"}
+{"text":"Error: C:/Users/tamly/Documents/site-modeler-poc/libs/app-framework-lib/src/components/AppTemplate.tsx(9,14): semantic error TS2322: Type '{ children: never[]; appName: string; user: { firstName: string; header: string; subHeader: string; }; }' is not assignable to type 'IntrinsicAttributes & { appName: string; user: UserProps; }'.\r\n","kind":"E"}
+{"text":"  Property 'children' does not exist on type 'IntrinsicAttributes & { appName: string; user: UserProps; }'.\r\n","kind":"E"}
+{"text":"    at error (C:\\Users\\tamly\\Documents\\site-modeler-poc\\common\\temp\\node_modules\\.pnpm\\rollup@1.32.1\\node_modules\\rollup\\dist\\shared\\node-entry.js:5400:30)\r\n","kind":"E"}
+{"text":"    at throwPluginError (C:\\Users\\tamly\\Documents\\site-modeler-poc\\common\\temp\\node_modules\\.pnpm\\rollup@1.32.1\\node_modules\\rollup\\dist\\shared\\node-entry.js:11878:12)\r\n","kind":"E"}
+{"text":"    at Object.error (C:\\Users\\tamly\\Documents\\site-modeler-poc\\common\\temp\\node_modules\\.pnpm\\rollup@1.32.1\\node_modules\\rollup\\dist\\shared\\node-entry.js:12912:24)\r\n","kind":"E"}
+{"text":"    at Object.error (C:\\Users\\tamly\\Documents\\site-modeler-poc\\common\\temp\\node_modules\\.pnpm\\rollup@1.32.1\\node_modules\\rollup\\dist\\shared\\node-entry.js:12081:38)\r\n","kind":"E"}
+{"text":"    at RollupContext.error (C:\\Users\\tamly\\Documents\\site-modeler-poc\\common\\temp\\node_modules\\.pnpm\\rollup-plugin-typescript2@0.27.3_rollup@1.32.1_typescript@3.9.10\\node_modules\\rollup-plugin-typescript2\\dist\\rollup-plugin-typescript2.cjs.js:17237:30)\r\n","kind":"E"}
+{"text":"    at C:\\Users\\tamly\\Documents\\site-modeler-poc\\common\\temp\\node_modules\\.pnpm\\rollup-plugin-typescript2@0.27.3_rollup@1.32.1_typescript@3.9.10\\node_modules\\rollup-plugin-typescript2\\dist\\rollup-plugin-typescript2.cjs.js:25033:23\r\n","kind":"E"}
+{"text":"    at arrayEach (C:\\Users\\tamly\\Documents\\site-modeler-poc\\common\\temp\\node_modules\\.pnpm\\rollup-plugin-typescript2@0.27.3_rollup@1.32.1_typescript@3.9.10\\node_modules\\rollup-plugin-typescript2\\dist\\rollup-plugin-typescript2.cjs.js:545:11)\r\n","kind":"E"}
+{"text":"    at Function.forEach (C:\\Users\\tamly\\Documents\\site-modeler-poc\\common\\temp\\node_modules\\.pnpm\\rollup-plugin-typescript2@0.27.3_rollup@1.32.1_typescript@3.9.10\\node_modules\\rollup-plugin-typescript2\\dist\\rollup-plugin-typescript2.cjs.js:9397:14)\r\n","kind":"E"}
+{"text":"    at printDiagnostics (C:\\Users\\tamly\\Documents\\site-modeler-poc\\common\\temp\\node_modules\\.pnpm\\rollup-plugin-typescript2@0.27.3_rollup@1.32.1_typescript@3.9.10\\node_modules\\rollup-plugin-typescript2\\dist\\rollup-plugin-typescript2.cjs.js:25006:12)\r\n","kind":"E"}
+{"text":"    at Object.transform (C:\\Users\\tamly\\Documents\\site-modeler-poc\\common\\temp\\node_modules\\.pnpm\\rollup-plugin-typescript2@0.27.3_rollup@1.32.1_typescript@3.9.10\\node_modules\\rollup-plugin-typescript2\\dist\\rollup-plugin-typescript2.cjs.js:29277:17)\r\n","kind":"E"}
+{"text":"    at C:\\Users\\tamly\\Documents\\site-modeler-poc\\common\\temp\\node_modules\\.pnpm\\rollup@1.32.1\\node_modules\\rollup\\dist\\shared\\node-entry.js:13117:25\r\n","kind":"E"}
+{"text":"\r\n","kind":"E"}
+{"text":"\r\n","kind":"O"}

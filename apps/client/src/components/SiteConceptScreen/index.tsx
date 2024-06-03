@@ -1,6 +1,15 @@
+import { Screen } from "@libs/app-framework-lib"
+
 const SiteConceptScreen = () => {
   return (
-    <div>SiteConceptScreen</div>
+      <Screen title="Site concept">
+        <div>
+          SiteConceptScreen
+          {/* <BaseButton label="New site" onClick={addNewSite} /> */}
+        </div>
+        {/* <BaseTable />
+        {showAddForm && <InputForm formElements={formElements} />} */}
+      </Screen>
   )
 }
 
